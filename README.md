@@ -44,7 +44,8 @@ To enable temperature monitoring, download and run [OpenHardwareMonitor](https:/
 
 ## Screenshots
 
-![ScreenCapture](https://github.com/user-attachments/assets/85ece26f-3656-48b2-a5a1-14e70cd97ec1)
+![ScreenCapture](https://github.com/user-attachments/assets/327fc628-2010-43ad-ba65-38a03619eb3b)
+
 
 
 
