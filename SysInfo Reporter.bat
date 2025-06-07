@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-title System Information Report
+title System Information Reporter
 color 07
 cls
 
