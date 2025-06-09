@@ -4,7 +4,7 @@ title System Information Reporter
 color 07
 cls
 
-:: Define a line separator
+
 set "line=------------------------------------------------------------"
 
 echo %line%
@@ -26,7 +26,7 @@ for /f "skip=1 tokens=*" %%p in ('wmic cpu get Name') do (
     if not "%%p"=="" echo Name: %%p
     goto :nextCPU
 )
-:nextCPU
+
 wmic cpu get NumberOfCores,NumberOfLogicalProcessors,MaxClockSpeed /format:table
 echo.
 
@@ -52,7 +52,7 @@ for /f "tokens=2 delims=:" %%a in ('ipconfig ^| findstr /C:"IPv4 Address"') do (
 )
 echo.
 
-:: Temperature Placeholder (requires external tool)
+:: Temperature Placeholder 
 echo [ Temperature ]
 echo %line%
 echo Temperature monitoring not available natively.
